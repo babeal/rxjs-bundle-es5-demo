@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "rxjs": "^6.4.0"
+    "rxjs": "^6.4.0",
+    "typescript": "^3.3.3333"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0"
+    "babel-cli": "^6.26.0",
+    "rollup": "^1.4.1",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-node-resolve": "^4.0.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc && rollup --config"
   }
 }
