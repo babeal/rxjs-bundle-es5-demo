@@ -5,4 +5,5 @@ var Name = (function () {
     }
     return Name;
 }());
+export { Name };
 //# sourceMappingURL=Name.js.map

@@ -1,4 +1,4 @@
-class Name {
+export class Name {
     firstName: string;
     lastName: string;
     constructor(first :string, last:string) {

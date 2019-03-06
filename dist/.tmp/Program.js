@@ -1,4 +1,5 @@
 import { range } from "rxjs";
+import { Student } from "./Student";
 var Program = (function () {
     function Program() {
     }
@@ -8,5 +9,5 @@ var Program = (function () {
     };
     return Program;
 }());
-Program.main();
+export default Program.main();
 //# sourceMappingURL=Program.js.map

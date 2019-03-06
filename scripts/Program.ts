@@ -1,5 +1,7 @@
 ﻿import { range } from "rxjs";
 
+import { Student } from "./Student";
+
 class Program {
     static main(): void {
         var student = new Student("Rollup", "Babel");
@@ -7,4 +9,4 @@ class Program {
     }
 }
 
-Program.main();
+export default Program.main();

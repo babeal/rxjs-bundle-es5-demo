@@ -8,7 +8,7 @@ export default {
 		//babel()
 	],
 
-	input: "dist/.tmp/Program.js",
+	input: "dist/.tmp/index.js",
 
 	output: {
 		file: "build/bundle.js",
